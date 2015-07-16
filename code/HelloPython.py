@@ -64,6 +64,6 @@ class HelloPythonWidget:
     self.helloWorldButton = helloWorldButton
 
   def onHelloWorldButtonClicked(self):
-    print "Hello World !"
+
     qt.QMessageBox.information(slicer.util.mainWindow(),'Slicer Python','Hello World!')
 
